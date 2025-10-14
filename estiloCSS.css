@@ -4,11 +4,15 @@ body {
     color: #333;
 }
 
-.header h1 {
+
+.header-franja {
+    background-color: #a30000; 
+    color: rgb(255, 255, 255);
+    padding: 20px 0;          
     font-family: 'Oswald', sans-serif;
-    color: #800303; 
     letter-spacing: 1px;
 }
+
 
 a {
     color: #FF3D00;
@@ -34,3 +38,15 @@ form {
     padding: 10px;
     border-radius: 4px;
 }
+
+.albumes-column img {
+    width: 100%;    
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;  
+    display: block;
+    margin-bottom: 10px; 
+    border-radius: 5px;  
+}
+
+
