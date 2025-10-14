@@ -49,4 +49,11 @@ form {
     border-radius: 5px;  
 }
 
+.integrante-img {
+    width: 300px;    
+    height: 500px;      
+    object-fit: cover;  
+}
+
+
 
